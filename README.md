@@ -1,7 +1,7 @@
 # Laravel Nova CloudFlare Card
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/zoxta/nova-cloudflare-card.svg?style=flat-square)](https://packagist.org/packages/zoxta/nova-cloudflare-card)
-[![Total Downloads](https://img.shields.io/packagist/dt/zoxta/nova-cloudflare-card.svg?style=flat-square)](https://packagist.org/packages/zoxta/nova-cloudflare-card)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/zOxta/nova-cloudflare-card.svg?style=flat-square)](https://packagist.org/packages/zoxta/nova-cloudflare-card)
+[![Total Downloads](https://img.shields.io/packagist/dt/zOxta/nova-cloudflare-card.svg?style=flat-square)](https://packagist.org/packages/zoxta/nova-cloudflare-card)
 
 Purge your CloudFlare's cache in two clicks from a Laravel Nova dashboard card.
 
@@ -34,7 +34,7 @@ public function cards()
 
 ## Config
 
-You need to add your Cloudflare's credentials to`config/services.php` file as shown:
+You need to add your Cloudflare's credentials to `config/services.php` file as shown:
 
 ```php
 
