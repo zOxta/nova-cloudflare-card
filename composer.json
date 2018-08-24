@@ -1,0 +1,41 @@
+{
+    "name": "zoxta/nova-cloudflare-card",
+    "description": "Purge your CloudFlare's cache in two clicks from a Laravel Nova dashboard card.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "cloudflate",
+        "cache"
+    ],
+    "homepage": "https://github.com/zOxta/nova-cloudflare-card",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zOxta",
+            "email": "ezoxta@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "*",
+        "kitetail/zttp": "^0.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zoxta\\NovaCloudflareCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zoxta\\NovaCloudflareCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
