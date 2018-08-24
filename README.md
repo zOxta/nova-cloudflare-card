@@ -5,6 +5,9 @@
 
 Purge your CloudFlare's cache in two clicks from a Laravel Nova dashboard card.
 
+![nova-cloudflare-card](https://user-images.githubusercontent.com/2760582/44584363-08938f80-a7a9-11e8-92a7-99497f5bcda5.png)
+
+
 ## Installation
 
 You can install the package in to a Laravel app that uses [Laravel Nova](https://nova.laravel.com) via composer:
@@ -42,6 +45,8 @@ You need to add your Cloudflare's credentials to`config/services.php` file as sh
     ],
 
 ```
+
+![nova-cloudflare-card-config](https://user-images.githubusercontent.com/2760582/44584370-0c271680-a7a9-11e8-89ed-74ec4a0d233a.png)
 
 ## Usage
 
