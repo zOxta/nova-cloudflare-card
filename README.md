@@ -1,9 +1,9 @@
-# Laravel Nova CloudFlare Card
+# Laravel Nova Cloudflare Card
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/zOxta/nova-cloudflare-card.svg?style=flat-square)](https://packagist.org/packages/zoxta/nova-cloudflare-card)
 [![Total Downloads](https://img.shields.io/packagist/dt/zOxta/nova-cloudflare-card.svg?style=flat-square)](https://packagist.org/packages/zoxta/nova-cloudflare-card)
 
-Purge your CloudFlare's cache in two clicks from a Laravel Nova dashboard card.
+Purge your Cloudflare's cache in two clicks from a Laravel Nova dashboard card.
 
 ![nova-cloudflare-card](https://user-images.githubusercontent.com/2760582/44584363-08938f80-a7a9-11e8-92a7-99497f5bcda5.png)
 
