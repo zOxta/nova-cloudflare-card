@@ -1,6 +1,6 @@
 <?php
 
-namespace Zoxta\NovaCloudflareCard\Http\Controllers;
+namespace Zoxta\NovaCloudflareCard\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
