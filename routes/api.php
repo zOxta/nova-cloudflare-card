@@ -14,4 +14,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::delete('cache-purge', \Zoxta\NovaCloudflareCard\Http\Controllers\CloudflareController::class.'@cachePurge');
+Route::delete('cache-purge', \Zoxta\NovaCloudflareCard\Controllers\CloudflareController::class.'@cachePurge');
