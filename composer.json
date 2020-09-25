@@ -18,14 +18,20 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "laravel/nova": "*",
-        "kitetail/zttp": "^0.3.0"
+        "guzzlehttp/guzzle": "^6.0.0 || ^7.0.0",
+        "laravel/nova": "*"
     },
     "autoload": {
         "psr-4": {
             "Zoxta\\NovaCloudflareCard\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://nova.laravel.com"
+        }
+    ],
     "extra": {
         "laravel": {
             "providers": [
