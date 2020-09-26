@@ -42,11 +42,13 @@ You need to add your Cloudflare's credentials to `config/services.php` file as s
         'email'   => env('CLOUDFLARE_EMAIL', ''), # your cloudflare email
         'key'     => env('CLOUDFLARE_KEY', ''), # your cloudflare api key, from https://dash.cloudflare.com/profile
         'zone_id' => env('CLOUDFLARE_ZONE_ID', ''), # your domain's zone id, from the domain overview page
+        'bearer' => env('CLOUDFLARE_BEARER', false), # if present use Authorization Bearer token instead of X-Auth-Key Header, use X-Auth if acc token, and Bearer if scoped token
     ],
 
 ```
 
 ![nova-cloudflare-card-config](https://user-images.githubusercontent.com/2760582/44584370-0c271680-a7a9-11e8-89ed-74ec4a0d233a.png)
+When creating an API key/token if you decide to use the account's Global API Key, you need to set the `CLOUDFLARE_KEY` env variable, but if you decide to use an API Token, which you can scope to specific zones, you need to set the `CLOUDFLARE_BEARER` env variable
 
 ## Usage
 
