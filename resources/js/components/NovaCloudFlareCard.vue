@@ -18,13 +18,11 @@
         </button>
 
         <portal to="modals">
-            <transition name="fade">
-                <cloudflare-cache-purge
-                    v-if="isModalOpen"
-                    @confirm="onCachePurge()"
-                    @close="isModalOpen = false"
-                />
-            </transition>
+            <cloudflare-cache-purge
+                v-if="isModalOpen"
+                @confirm="onCachePurge()"
+                @close="isModalOpen = false"
+            />
         </portal>
 
     </card>
